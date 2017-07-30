@@ -1,0 +1,31 @@
+repo,path,name
+hannesmuehleisen/clickhouse-r,NAMESPACE,NAMESPACE
+hawkdidy/hugenedeg,NAMESPACE,NAMESPACE
+USGS-R/USGSHydroTools,NAMESPACE,NAMESPACE
+kj6aqr/Coursera,John Hopkins Data Science/Developing Data Products/Week 3/DDPQuiz3/NAMESPACE,NAMESPACE
+kj6aqr/Coursera,John Hopkins Data Science/Developing Data Products/Week 3/DDPQuiz3/R/createmean/NAMESPACE,NAMESPACE
+hemberg-lab/scRNA.seq.funcs,NAMESPACE,NAMESPACE
+jminnier/emrselect,NAMESPACE,NAMESPACE
+zhezhangsh/CHOPseq,NAMESPACE,NAMESPACE
+corujito/filtrafilet,NAMESPACE,NAMESPACE
+Vykook/acme-sac,usr/inferno/namespace,namespace
+saundersk1/RainfallExtremes,Package/RainfallExtremes.Rcheck/00_pkg_src/RainfallExtremes/NAMESPACE,NAMESPACE
+saundersk1/RainfallExtremes,Package/RainfallExtremes.Rcheck/RainfallExtremes/NAMESPACE,NAMESPACE
+saundersk1/RainfallExtremes,Package/RainfallExtremes/NAMESPACE,NAMESPACE
+colin-fraser/convertR,NAMESPACE,NAMESPACE
+lisannehuurdeman/simBob,NAMESPACE,NAMESPACE
+krisrs1128/cleanUtils,NAMESPACE,NAMESPACE
+Vykook/acme-sac,man/4/namespace,namespace
+Vykook/acme-sac,man/6/namespace,namespace
+thermosilla/tsfactors,NAMESPACE,NAMESPACE
+Bohdan-Khomtchouk/gtf,NAMESPACE,NAMESPACE
+leeper/responserates,NAMESPACE,NAMESPACE
+rebeccahch/precisiondata,NAMESPACE,NAMESPACE
+raybaser/FACTscorer,NAMESPACE,NAMESPACE
+daniel01001000/greengenes13.8_94MgDb,NAMESPACE,NAMESPACE
+DaanNieboer/GAP3,NAMESPACE,NAMESPACE
+jackmat/RFclasses,heyhey/NAMESPACE,NAMESPACE
+riatelab/mapinsetr,NAMESPACE,NAMESPACE
+himmel17/dotfiles,.emacs.d/snippets/c++-mode/namespace,namespace
+himmel17/dotfiles,.emacs.d/snippets/csharp-mode/namespace,namespace
+ddspog/data-analysis,d3.bubbles/NAMESPACE,NAMESPACE

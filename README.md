@@ -49,3 +49,14 @@ Notable points are:
 * Do not use `language`. The languages detected by GitHub are not always correct since R packages may contain many files other than R.
 
 The results are saved to `results/DESCRIPTION` and `results/NAMESPACE` separately.
+
+
+### Split Search Query
+
+Hardest part is to overcome this error by narrowing the search result:
+
+```r
+#>  Error in gh::gh("/search/code", q = query, page = page) : 
+#>   GitHub API error (422): 422 Unprocessable Entity
+#>   Only the first 1000 search results are available
+```
