@@ -24,13 +24,13 @@ do_search <- function(page, query, csv_dir) {
 
 do_search_description <- function(page) {
   do_search(page,
-            query = "filename:DESCRIPTION -org:cran fork:false",
+            query = "filename:DESCRIPTION -org:cran -org:rforge fork:false Package Version",
             csv_dir = RESULT_DESCRIPTION_DIR)
 }
 
 do_search_namespace <- function(page) {
   do_search(page,
-            query = "filename:NAMESPACE -org:cran fork:false",
+            query = "filename:NAMESPACE -org:cran -org:rforge fork:false export",
             csv_dir = RESULT_NAMESPACE_DIR)
 }
 
