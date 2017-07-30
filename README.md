@@ -38,27 +38,14 @@ res$incomplete_results
 
 library(purrr)
 res$items %>%
-  keep(~ .$name != "DESCRIPTION") %>%
-  map_df(~ list(repo = .[[c("repository", "full_name")]], path = .[["path"]])) %>%
-  knitr::kable()
+  keep(~ .$name == "DESCRIPTION") %>%
+  map_df(~ list(repo = .[[c("repository", "full_name")]], path = .[["path"]]))
 ```
 
-|repo                                 |path                                                                                                                |
-|:------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
-|qball/Lexington                      |description                                                                                                         |
-|kevbrn/first_app                     |OLDgit/description                                                                                                  |
-|niroj/iStockPainting                 |description                                                                                                         |
-|rpombo/railsinstaller_demo           |Git/share/git-core/templates/description                                                                            |
-|cjohansen/libdolt                    |test/fixtures/dolt-test-repo.git/description                                                                        |
-|larrykvit/quadcopter_flight_software |oldgit/description                                                                                                  |
-|suspendmode/glenmore-mvcs            |glenmore-mvcs/description                                                                                           |
-|rubyunworks/autoload                 |var/description                                                                                                     |
-|raphaelgmelo/remotecontrol           |remotecontrol.git/description                                                                                       |
-|HaveF/dev-cookbook                   |.description                                                                                                        |
-|imazen/repositext                    |spec/git_test/repo_images/rt-english/dot_git/description                                                            |
-|imazen/repositext                    |spec/git_test/repo_images/rt-spanish/dot_git/description                                                            |
-|imazen/repositext                    |spec/git_test/repo_images/static/dot_git/description                                                                |
-|imazen/repositext                    |spec/git_test/repo_images/static_remote/dot_git/description                                                         |
-|project-draco-hr/consulo             |platform_lang-impl_src_com_intellij_patterns_compiler_PatternClassBean.java/[CN]/PatternClassBean/[FE]/description  |
-|project-draco-hr/consulo             |platform_lang-api_src_com_intellij_psi_PsiReferenceProviderBean.java/[CN]/PsiReferenceProviderBean/[FE]/description |
-```
+Notable points are:
+
+* Exclude [cran](https://github.com/cran/), a CRAN mirror.
+* Exclude forked repository.
+* Do not use `language`. The languages detected by GitHub are not always correct since R packages may contain many files other than R.
+
+The results are saved to `results/DESCRIPTION` and `results/NAMESPACE` separately.
