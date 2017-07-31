@@ -53,7 +53,7 @@ The results are saved to `results/DESCRIPTION` and `results/NAMESPACE` separatel
 
 ### Split Search Query
 
-Hardest part is to overcome this error by narrowing the search result:
+The hardest part is to overcome this error by narrowing the search result:
 
 ```r
 #>  Error in gh::gh("/search/code", q = query, page = page) : 

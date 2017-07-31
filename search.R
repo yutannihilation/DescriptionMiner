@@ -11,13 +11,21 @@ do_search <- function(page, query, csv_dir) {
   
   res <- gh::gh("/search/code",
                 q = query,
-                page = page)
+                page = page,
+                per_page = 100)
   
-  result <- res$items %>%
-    purrr::map_df(~ list(repo = .[[c("repository", "full_name")]],
-                         path = .[["path"]],
-                         name = .[["name"]]))
+  repo     <- purrr::map_chr(res$items, c("repository", "name"))
+  owner    <- purrr::map_chr(res$items, c("repository", "owner", "login"))
+  filename <- purrr::map_chr(res$items, "name")
+  path     <- purrr::map_chr(res$items, "path")
 
+  result <- tibble::tibble(
+    repo = repo,
+    owner = owner,
+    filename = filename,
+    path = path
+  )
+  
   readr::write_csv(result,
                    path = file.path(csv_dir, sprintf("page%d.csv", page)))
 }
