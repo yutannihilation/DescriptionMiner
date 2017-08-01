@@ -170,7 +170,7 @@ dir.create(RESULT_NAMESPACE_DIR, showWarnings = FALSE, recursive = TRUE)
 rate_limit <- get_rate_limit_for_search()
 max_count <- rate_limit$limit
 
-
+# Search desc
 for (i in seq_along(query_patterns)) {
   csv_dir <- file.path(RESULT_NAMESPACE_DIR, sprintf("query%d", i))
   dir.create(csv_dir, showWarnings = FALSE)
@@ -184,6 +184,40 @@ for (i in seq_along(query_patterns)) {
   for (page in seq(page_namespace, 10)) {
     result <- do_search(page,
                         query = sprintf(NAMESPACE_QUERY_TMPL, query_patterns[i]))
+    
+    write_csv(result,
+              path = file.path(csv_dir, sprintf("page%d.csv", page)))
+    Sys.sleep(60)
+  }
+}
+
+# Search asc
+for (i in seq_along(query_patterns)) {
+  result <- gh::gh("/search/code",
+                   q = sprintf(NAMESPACE_QUERY_TMPL, query_patterns[i]),
+                   sort = "indexed-asc",
+                   page = 1,
+                   per_page = 1)
+  Sys.sleep(60)
+  max_page <- ceiling((result$total_count - 1000) / 100)
+  if (max_page <= 0) {
+    message(sprintf("query%d is <1000. Skip.", i))
+    next
+  }
+  
+  csv_dir <- file.path(RESULT_NAMESPACE_DIR, sprintf("query%d-asc", i))
+  dir.create(csv_dir, showWarnings = FALSE)
+  page_namespace <- get_next_page(csv_dir)
+  
+  if (page_namespace >= max_page) {
+    message(sprintf("%s has already enough records. Skip.", csv_dir))
+    next
+  }
+  
+  for (page in seq(page_namespace, max_page)) {
+    result <- do_search(page,
+                        query = sprintf(NAMESPACE_QUERY_TMPL, query_patterns[i]),
+                        sort = "indexed-asc")
     
     write_csv(result,
               path = file.path(csv_dir, sprintf("page%d.csv", page)))
