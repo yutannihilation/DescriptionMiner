@@ -1,0 +1,101 @@
+owner,repo,filename,path
+ewan,contrast_change,NAMESPACE,packages/rphonch/NAMESPACE
+dlmeduLi,methyutils,NAMESPACE,methyutils/NAMESPACE
+robertzk,bettertrace,NAMESPACE,tests/testthat/packages/package1/NAMESPACE
+robertzk,bettertrace,NAMESPACE,tests/testthat/packages/package2/NAMESPACE
+robertzk,bettertrace,NAMESPACE,tests/testthat/packages/package3/NAMESPACE
+huaxia1985,Phylometrics,NAMESPACE,code/phylometrics/NAMESPACE
+aagulles,RScriptLibrary,NAMESPACE,RPackagesNeeded/pbtgs/NAMESPACE
+xingh,rattle,NAMESPACE,package/rattle/NAMESPACE
+robertzk,rocco,NAMESPACE,tests/testthat/packages/rocco1/NAMESPACE
+oscar-franzen,oclust,NAMESPACE,bin/R/lib64/R/library/tools/NAMESPACE
+oscar-franzen,oclust,NAMESPACE,bin/R/lib64/R/library/tcltk/NAMESPACE
+oscar-franzen,oclust,NAMESPACE,bin/R/lib64/R/library/datasets/NAMESPACE
+oscar-franzen,oclust,NAMESPACE,bin/R.lib/seqinr/NAMESPACE
+jrboyd,jrb_R_scripts,NAMESPACE,jrb_heatmaps/NAMESPACE
+mgencare,brainhealth,NAMESPACE,R/completeHRVTimeDomain/NAMESPACE
+mgencare,brainhealth,NAMESPACE,R/dataUpload/NAMESPACE
+mgencare,brainhealth,NAMESPACE,R/openIdentity/NAMESPACE
+lukaszdaniel,ivory,NAMESPACE,R/src/library/tcltk/NAMESPACE
+lukaszdaniel,ivory,NAMESPACE,R/src/library/methods/NAMESPACE
+lukaszdaniel,ivory,NAMESPACE,R/src/library/datasets/NAMESPACE
+KCoutre,geolocation,NAMESPACE,kftrack/NAMESPACE
+georgeshirreff,multiNe,NAMESPACE,multiNe/NAMESPACE
+mailund,ziphmm,NAMESPACE,zipHMM/rZipHMM/NAMESPACE
+sjbonner,Truncated_CJS,NAMESPACE,TruncatedCJS/NAMESPACE
+PeeperLab,SCLCBam,NAMESPACE,SCLCBam/NAMESPACE
+UFC-GREat-PPGETI,MCCSimulator,NAMESPACE,MCCSim/tests/TestProject/R/win-library/3.1/statmod/NAMESPACE
+UFC-GREat-PPGETI,MCCSimulator,NAMESPACE,MCCSim/tests/TestProject/R/win-library/3.1/FAdist/NAMESPACE
+kvpradap,Q-RPackage,NAMESPACE,QPackage/NAMESPACE
+grlurton,ihme_hmis,NAMESPACE,dhisextractr/NAMESPACE
+dev-enthusiast,QLExtension,NAMESPACE,Swig Conversion Layer/QuantLib-SWIG/R/NAMESPACE
+dev-enthusiast,QLExtension,NAMESPACE,R Extension/RMG/Utilities/Interfaces/SecDb3/SecDb/NAMESPACE
+dev-enthusiast,QLExtension,NAMESPACE,R Extension/RMG/Utilities/Interfaces/CEGbase/NAMESPACE
+dev-enthusiast,QLExtension,NAMESPACE,R Extension/RMG/Utilities/Interfaces/CEGterm/NAMESPACE
+dev-enthusiast,QLExtension,NAMESPACE,R Extension/RMG/Utilities/Interfaces/DivideAndConquer/NAMESPACE
+dev-enthusiast,QLExtension,NAMESPACE,R Extension/RMG/Utilities/Interfaces/FTR/NAMESPACE
+dev-enthusiast,QLExtension,NAMESPACE,R Extension/RMG/Utilities/Interfaces/PM/NAMESPACE
+dev-enthusiast,QLExtension,NAMESPACE,R Extension/RMG/Utilities/Interfaces/SecDb/NAMESPACE
+dev-enthusiast,QLExtension,NAMESPACE,R Extension/RMG/Utilities/Interfaces/Tsdb/NAMESPACE
+cincinnati-childrens-hospital,biowardrobe,NAMESPACE,scripts/R/wardrobe/NAMESPACE
+river-jade,rdv-framework,NAMESPACE,projects/rdvPackages/rdvfileio/NAMESPACE
+river-jade,rdv-framework,NAMESPACE,projects/rdvPackages/biodivprobgen/NAMESPACE
+m07saa3,DMSportprediction,NAMESPACE,footballdata/NAMESPACE
+m07saa3,DMSportprediction,NAMESPACE,whoscored/NAMESPACE
+BruceJawn,bzstat,NAMESPACE,blogpost/RcppFANN/NAMESPACE
+BruceJawn,bzstat,NAMESPACE,blogpost/RcppTestModule/NAMESPACE
+tranlm,positivity,NAMESPACE,App-positivity/NAMESPACE
+wtineomoronta,R-programming,NAMESPACE,R-FirstProject/NAMESPACE
+FMunyoz,Stima,NAMESPACE,Tasacion.Rcheck/00_pkg_src/Tasacion/NAMESPACE
+FMunyoz,Stima,NAMESPACE,Tasacion.Rcheck/Tasacion/NAMESPACE
+FMunyoz,Stima,NAMESPACE,Tasacion/NAMESPACE
+jasonjb82,GloC,NAMESPACE,R/packages/GloCR/NAMESPACE
+jasonjb82,GloC,NAMESPACE,R/packages/manipulateR/NAMESPACE
+youkefan18,chip_analysis,NAMESPACE,kftools3.0/NAMESPACE
+thomascjohnson,rfusiontables,NAMESPACE,rfusiontables/NAMESPACE
+MarcusWalz,RogueClinicalAvatars,NAMESPACE,warfkit/NAMESPACE
+Cronjaeger,project8-MLMC,NAMESPACE,mlmc-pkg/NAMESPACE
+jeffreyhorner,R-Array-Hash,NAMESPACE,src/library/tcltk/NAMESPACE
+jeffreyhorner,R-Array-Hash,NAMESPACE,src/library/tools/NAMESPACE
+jeffreyhorner,R-Array-Hash,NAMESPACE,src/library/datasets/NAMESPACE
+javiergonzalezh,odest,NAMESPACE,odest/NAMESPACE
+amitweil,MMM,NAMESPACE,Framework/R/MMM/NAMESPACE
+hxfeng,R-3.1.2,NAMESPACE,build/library/tools/NAMESPACE
+hxfeng,R-3.1.2,NAMESPACE,library/tools/NAMESPACE
+hxfeng,R-3.1.2,NAMESPACE,src/library/tools/NAMESPACE
+hxfeng,R-3.1.2,NAMESPACE,build/library/tcltk/NAMESPACE
+hxfeng,R-3.1.2,NAMESPACE,library/tcltk/NAMESPACE
+hxfeng,R-3.1.2,NAMESPACE,src/library/tcltk/NAMESPACE
+hxfeng,R-3.1.2,NAMESPACE,build/library/datasets/NAMESPACE
+hxfeng,R-3.1.2,NAMESPACE,library/datasets/NAMESPACE
+hxfeng,R-3.1.2,NAMESPACE,src/library/datasets/NAMESPACE
+robertzk,super,NAMESPACE,tests/testthat/packages/package1/NAMESPACE
+robertzk,super,NAMESPACE,tests/testthat/packages/package2/NAMESPACE
+robertzk,super,NAMESPACE,tests/testthat/packages/package3/NAMESPACE
+lupyanlab,spatial-cueing,NAMESPACE,spatialcueing/NAMESPACE
+CodeGit,SequenceImp,NAMESPACE,dependencies-bin/windows/bin/R/library/zlibbioc/NAMESPACE
+CodeGit,SequenceImp,NAMESPACE,dependencies-bin/windows/bin/R/library/tools/NAMESPACE
+CodeGit,SequenceImp,NAMESPACE,dependencies-bin/windows/bin/R/library/tcltk/NAMESPACE
+CodeGit,SequenceImp,NAMESPACE,dependencies-bin/windows/bin/R/library/datasets/NAMESPACE
+CodeGit,SequenceImp,NAMESPACE,dependencies-bin/linux/bin/R/lib/R/library/zlibbioc/NAMESPACE
+CodeGit,SequenceImp,NAMESPACE,dependencies-bin/linux/bin/R/lib64/R/library/zlibbioc/NAMESPACE
+CodeGit,SequenceImp,NAMESPACE,dependencies-bin/macosx/bin/R/lib/R/library/zlibbioc/NAMESPACE
+CodeGit,SequenceImp,NAMESPACE,dependencies-bin/linux/bin/R/lib/R/library/tcltk/NAMESPACE
+CodeGit,SequenceImp,NAMESPACE,dependencies-bin/linux/bin/R/lib64/R/library/tcltk/NAMESPACE
+CodeGit,SequenceImp,NAMESPACE,dependencies-bin/macosx/bin/R/lib/R/library/tcltk/NAMESPACE
+CodeGit,SequenceImp,NAMESPACE,dependencies-bin/linux/bin/R/lib/R/library/tools/NAMESPACE
+CodeGit,SequenceImp,NAMESPACE,dependencies-bin/linux/bin/R/lib64/R/library/tools/NAMESPACE
+CodeGit,SequenceImp,NAMESPACE,dependencies-bin/macosx/bin/R/lib/R/library/tools/NAMESPACE
+CodeGit,SequenceImp,NAMESPACE,dependencies-bin/linux/bin/R/lib/R/library/datasets/NAMESPACE
+CodeGit,SequenceImp,NAMESPACE,dependencies-bin/linux/bin/R/lib64/R/library/datasets/NAMESPACE
+CodeGit,SequenceImp,NAMESPACE,dependencies-bin/macosx/bin/R/lib/R/library/datasets/NAMESPACE
+shannonrush,DriverTelematics,NAMESPACE,RouteFeatures/NAMESPACE
+vguillemot,multiblox,NAMESPACE,multiblox_package/MULTIBLOX/NAMESPACE
+brkyvz,spark-package-cmd-tool,NAMESPACE,python/spark_package/resources/NAMESPACE
+databricks,spark-package-cmd-tool,NAMESPACE,python/spark_package/resources/NAMESPACE
+Aumann-,Link_Analyzer,NAMESPACE,Analyzer/NAMESPACE
+robertzk,packagepackage,NAMESPACE,tests/testthat/packages/package1/NAMESPACE
+robertzk,packagepackage,NAMESPACE,tests/testthat/packages/package2/NAMESPACE
+robertzk,packagepackage,NAMESPACE,tests/testthat/packages/package3/NAMESPACE
+rozeggo,ncbiTools,NAMESPACE,ncbiTools/NAMESPACE
+philtran,Settlement_Program,NAMESPACE,anRpackage/NAMESPACE

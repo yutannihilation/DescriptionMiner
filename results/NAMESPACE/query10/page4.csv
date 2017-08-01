@@ -1,0 +1,101 @@
+owner,repo,filename,path
+svn2github,rkward-svn-mirror,NAMESPACE,branches/release_branch_0.6.0/rkward/rbackend/rpackages/rkward/NAMESPACE
+svn2github,rkward-svn-mirror,NAMESPACE,branches/development_branches/rkward_graphpics_device/rkward/rbackend/rpackages/rkward/NAMESPACE
+favorov,gene-friends,NAMESPACE,pkg/NAMESPACE
+TGuillerme,SpatioTemporal_Disparity,NAMESPACE,Functions/disparity/NAMESPACE
+oncoscape,webapp-R-package,NAMESPACE,hbolouri/oncoDev/Oncoscape/NAMESPACE
+acanedairri,WebServiceAnalysisFiles,NAMESPACE,Windows R Packages - R.3.0.2/rstudio/NAMESPACE
+acanedairri,WebServiceAnalysisFiles,NAMESPACE,Windows R Packages - R.3.0.2/codetools/NAMESPACE
+acanedairri,WebServiceAnalysisFiles,NAMESPACE,Windows R Packages - R.3.0.2/compiler/NAMESPACE
+acanedairri,WebServiceAnalysisFiles,NAMESPACE,Windows R Packages - R.3.0.2/bitops/NAMESPACE
+acanedairri,WebServiceAnalysisFiles,NAMESPACE,Linux R Packages - R.3.0.2/stringr/NAMESPACE
+acanedairri,WebServiceAnalysisFiles,NAMESPACE,Windows R Packages - R.3.0.2/stringr/NAMESPACE
+acanedairri,WebServiceAnalysisFiles,NAMESPACE,Linux R Packages - R.3.0.2/rstudio/NAMESPACE
+acanedairri,WebServiceAnalysisFiles,NAMESPACE,Linux R Packages - R.3.0.2/manipulate/NAMESPACE
+acanedairri,WebServiceAnalysisFiles,NAMESPACE,Windows R Packages - R.3.0.2/manipulate/NAMESPACE
+acanedairri,WebServiceAnalysisFiles,NAMESPACE,Linux R Packages - R.3.0.2/gtools/NAMESPACE
+acanedairri,WebServiceAnalysisFiles,NAMESPACE,Windows R Packages - R.3.0.2/gtools/NAMESPACE
+acanedairri,WebServiceAnalysisFiles,NAMESPACE,Linux R Packages - R.3.0.2/Rserve/NAMESPACE
+acanedairri,WebServiceAnalysisFiles,NAMESPACE,Windows R Packages - R.3.0.2/Rserve/NAMESPACE
+acanedairri,WebServiceAnalysisFiles,NAMESPACE,Linux R Packages - R.3.0.2/RColorBrewer/NAMESPACE
+acanedairri,WebServiceAnalysisFiles,NAMESPACE,Windows R Packages - R.3.0.2/RColorBrewer/NAMESPACE
+skyguy94,R,NAMESPACE,src/library/compiler/NAMESPACE
+oneandoneis2,GNU-parallel,NAMESPACE,src/optional/R/gnuparallel/NAMESPACE
+hitchpy,courses_ucd,NAMESPACE,stat250_hw1/AirlineDelays/NAMESPACE
+GeoscienceAustralia,TsuTools,NAMESPACE,dev/SFFMAnalysis2015/CODE0/PACKAGES/EqSim/NAMESPACE
+waidemania,datasciencecoursera,NAMESPACE,R/x86_64-pc-linux-gnu-library/3.0/rstudio/NAMESPACE
+waidemania,datasciencecoursera,NAMESPACE,R/x86_64-pc-linux-gnu-library/3.0/manipulate/NAMESPACE
+cellnopt,CellNOptR,NAMESPACE,packages/CNORfuzzy/NAMESPACE
+cellnopt,CellNOptR,NAMESPACE,packages/CNORode/NAMESPACE
+mlhim,tb,NAMESPACE,src/models/BrazilianPublicHospitalDischargeSummary2012/ccdBrazilianPublicHospitalDischargeSummary201290c28fec7d00/NAMESPACE
+mlhim,tb,NAMESPACE,src/models/BrazilianDeathCertificate2012/ccdBrazilianDeathCertificate201296bebbebd18d/NAMESPACE
+little-joey,datasciencecoursera,NAMESPACE,documents/R/win-library/3.1/stringr/NAMESPACE
+little-joey,datasciencecoursera,NAMESPACE,documents/R/win-library/3.1/rstudio/NAMESPACE
+little-joey,datasciencecoursera,NAMESPACE,documents/R/win-library/3.1/whisker/NAMESPACE
+little-joey,datasciencecoursera,NAMESPACE,documents/R/win-library/3.1/manipulate/NAMESPACE
+little-joey,datasciencecoursera,NAMESPACE,documents/R/win-library/3.1/bitops/NAMESPACE
+gertvv,uniformity,NAMESPACE,uniformity/NAMESPACE
+alxarsenault,Forestogram,NAMESPACE,hbiclust/NAMESPACE
+dmatej,Glassfish,relaxNamespace.rxm,external/modules/isorelax/src/jp/gr/xml/relax/lib/relaxNamespace.rxm
+codeview2,codeview,NAMESPACE,TTR/NAMESPACE
+hack-r,MergeBy,NAMESPACE,MergeBy/NAMESPACE
+shifteight,R,NAMESPACE,LearningR/pythagorus/NAMESPACE
+RevolutionAnalytics,RRO,NAMESPACE,R-src/src/library/compiler/NAMESPACE
+AlexRoopesh,Coursera-docs,NAMESPACE,maps/NAMESPACE
+metacran,r-builder,NAMESPACE,rbuildertest/NAMESPACE
+ggslc,uniaxial-lc,NAMESPACE,uniaxialOptics/NAMESPACE
+ggslc,uniaxial-lc,NAMESPACE,EricksenLeslie/NAMESPACE
+BigBlueBox,GoodAndBad,NAMESPACE,rstuff/rmongodb/rmongodb/NAMESPACE
+denimj,MECCA-discrete,NAMESPACE,Version_5.x/MeccaDiscrete/NAMESPACE
+smithbn,r-scripts,NAMESPACE,controlrandomizer/NAMESPACE
+smithbn,r-scripts,NAMESPACE,heatmap_calendar/NAMESPACE
+smithbn,r-scripts,NAMESPACE,reportmatic/NAMESPACE
+smithbn,r-scripts,NAMESPACE,travelaverages/NAMESPACE
+smithbn,r-scripts,NAMESPACE,causalapp/NAMESPACE
+rdiaz02,adacgh-web,NAMESPACE,R-packages/ADaCGH2/NAMESPACE
+rdiaz02,tnasas,NAMESPACE,R-package/Tnasas/NAMESPACE
+daniellembenda,datasciencecoursera,NAMESPACE,R/win-library/3.1/rstudio/NAMESPACE
+daniellembenda,datasciencecoursera,NAMESPACE,R/win-library/3.1/manipulate/NAMESPACE
+cmrnp,ausenergyviz,NAMESPACE,ausenergyviz/NAMESPACE
+krlmlr-archive,r-portable,NAMESPACE,Image/R/site-library/whisker/NAMESPACE
+krlmlr-archive,r-portable,NAMESPACE,Image/R/site-library/withr/NAMESPACE
+krlmlr-archive,r-portable,NAMESPACE,Image/R/site-library/yaml/NAMESPACE
+krlmlr-archive,r-portable,NAMESPACE,Image/R/site-library/markdown/NAMESPACE
+krlmlr-archive,r-portable,NAMESPACE,Image/R/site-library/praise/NAMESPACE
+krlmlr-archive,r-portable,NAMESPACE,Image/R-stable/library/codetools/NAMESPACE
+krlmlr-archive,r-portable,NAMESPACE,Image/R/library/codetools/NAMESPACE
+krlmlr-archive,r-portable,NAMESPACE,Image/R-stable/library/compiler/NAMESPACE
+krlmlr-archive,r-portable,NAMESPACE,Image/R/library/compiler/NAMESPACE
+W4TCH0UT,kernel-msm-ghost,namespace.c~,fs/namespace.c~
+blogsdon,vbdm,NAMESPACE,vbdm/NAMESPACE
+cjgeyer,mat,NAMESPACE,package/baz/NAMESPACE
+erasche,docker-rstudio-notebook,NAMESPACE,GalaxyConnector/NAMESPACE
+rikenbit,PubMedQuery,NAMESPACE,OtherPackages/ENVISIONQuery/NAMESPACE
+jayhorton,reece-external,NAMESPACE,lib/R/RColorBrewer/NAMESPACE
+xuyao18,ccz,xml_namespace.svg,scripts/app/utils/SLAXML/test/files/xml_namespace.svg
+619619,T805-Basicrom-Kernel,namespace.c~,fs/namespace.c~
+mjh4646,gameRoomR,NAMESPACE,escapeGame/NAMESPACE
+softwaresaved,build_and_test_examples,NAMESPACE,R/NAMESPACE
+svn2github,dyncall,NAMESPACE,bindings/R/rdc/NAMESPACE
+Chilledheart,tudos,namespace,l4/pkg/l4re/include/namespace
+jam2079,programs,NAMESPACE,R/x86_64-unknown-linux-gnu-library/3.0/gtools/NAMESPACE
+jam2079,programs,NAMESPACE,R/x86_64-unknown-linux-gnu-library/2.9/bitops/NAMESPACE
+PhilBrockman,research-klingenberg,NAMESPACE,Inactive_Archived/sGraph/NAMESPACE
+PhilBrockman,research-klingenberg,NAMESPACE,Inactive_Archived/myPackage/NAMESPACE
+robcast,annotator_oldbranch,namespace.coffee,src/namespace.coffee
+daviddliu,THetA_luigi,NAMESPACE,PipelineSoftware/BICseq/R Package/BICseq/NAMESPACE
+o-,Rexperiments,NAMESPACE,src/library/compiler/NAMESPACE
+arshull,GalaTab3_KK_Kernel_T310,namespace.c~,fs/namespace.c~
+HaizhenWu,R-WeightedDecon,NAMESPACE,WeightedDecon/NAMESPACE
+HaizhenWu,R-DistSelection,NAMESPACE,DistSelection/NAMESPACE
+NIWAFisheriesModelling,SPM,NAMESPACE,R-libraries/spm/NAMESPACE
+NIWAFisheriesModelling,SPM,NAMESPACE,R-libraries/spmTest/NAMESPACE
+ThomasCarroll,rtracktables,NAMESPACE,rtracktables/NAMESPACE
+HaizhenWu,R-AccSampGenDist,NAMESPACE,AccSampGenDist/NAMESPACE
+Anderson-Lab,OPLS,NAMESPACE,opls/NAMESPACE
+ddf-project,DDF,NAMESPACE,spark/rlibs/Rserve/NAMESPACE
+wsag,member_archive,NAMESPACE,Stanley.Glidden/cats/NAMESPACE
+colemonnahan,admb_guide,NAMESPACE,admbtools/NAMESPACE
+opengeospatial,teamengine-offline,relaxNamespace.rxm,src/teamengine-4.0.5-dependencies/isorelax_isorelax_20030108/jp/gr/xml/relax/lib/relaxNamespace.rxm
+thl-mjv,euromomo-temp,NAMESPACE,euroMoMoTemp/NAMESPACE
+deepayan,tessella,NAMESPACE,tessella.libuv/NAMESPACE

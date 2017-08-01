@@ -2,7 +2,6 @@ library(tidyverse)
 
 RESULT_DIR <- "results"
 RESULT_DESCRIPTION_DIR <- file.path(RESULT_DIR, "DESCRIPTION")
-RESULT_NAMESPACE_DIR <- file.path(RESULT_DIR, "NAMESPACE")
 
 # Query Construction -------------------------------------------------------------
 
@@ -33,13 +32,13 @@ extensions <- c(
   "py",             # Python
   "test",           # TCL
   "svn-base",       # SVN
-  # For DESCRIPTION
   "rst",            # reStructuredText
   "props",          # Weka?
   "plist",          # ?
   "scala",          # Scala
   "cmake",          # CMake
-  "m"               # Objective-C
+  "m",              # Objective-C
+  "md"              # Markdown
 )
 
 extensions_query <- sprintf("-extension:%s", extensions) %>%
@@ -102,13 +101,13 @@ users_exclude <- c(
   "Bioconductor-mirror", # Bioconductor mirror
   "rforge"               # RForge mirror
 )
-  
+
 users_query <- c(users_many_repo, users_other, users_exclude) %>%
   unique %>%
   sprintf("-user:%s", .) %>%
   paste(collapse = " ")
 
-NAMESPACE_QUERY_TMPL <- glue::glue("filename:NAMESPACE fork:false export NOT D1tr %s {extensions_query} {users_query}")
+DESCRIPTION_QUERY_TMPL <- glue::glue("filename:DESCRIPTION fork:false Package Version %s {extensions_query} {users_query}")
 query_patterns <- c(
   "path:/ exportPattern import",
   "path:/ exportPattern NOT import",
@@ -135,13 +134,11 @@ do_search <- function(page, query, sort = "indexed") {
                 page = page,
                 per_page = 100)
   
-  message(sprintf("total count: %d, incomplete: %s", res$total_count, res$incomplete_results))
-  
   repo     <- purrr::map_chr(res$items, c("repository", "name"))
   owner    <- purrr::map_chr(res$items, c("repository", "owner", "login"))
   filename <- purrr::map_chr(res$items, "name")
   path     <- purrr::map_chr(res$items, "path")
-
+  
   tibble::tibble(owner, repo, filename, path)
 }
 
@@ -171,22 +168,14 @@ rate_limit <- get_rate_limit_for_search()
 max_count <- rate_limit$limit
 
 
-for (i in seq_along(query_patterns)) {
-  csv_dir <- file.path(RESULT_NAMESPACE_DIR, sprintf("query%d", i))
-  dir.create(csv_dir, showWarnings = FALSE)
-  page_namespace <- get_next_page(csv_dir)
+csv_dir <- file.path(RESULT_NAMESPACE_DIR, sprintf("query%d", 1))
+dir.create(csv_dir, showWarnings = FALSE)
+page_namespace <- get_next_page(csv_dir)
+for (page in seq(page_namespace, page_namespace + max_count - 1)) {
+  result <- do_search(page,
+                      query = sprintf(NAMESPACE_QUERY_TMPL, query_patterns[1]))
   
-  if (page_namespace >= 10) {
-    message(sprintf("%s has already 1000 records. Skip.", csv_dir))
-    next
-  }
-  
-  for (page in seq(page_namespace, 10)) {
-    result <- do_search(page,
-                        query = sprintf(NAMESPACE_QUERY_TMPL, query_patterns[i]))
-    
-    write_csv(result,
-              path = file.path(csv_dir, sprintf("page%d.csv", page)))
-    Sys.sleep(60)
-  }
+  write_csv(result,
+            path = file.path(csv_dir, sprintf("page%d.csv", page)))
+  Sys.sleep(60)
 }
