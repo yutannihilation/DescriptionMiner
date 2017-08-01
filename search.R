@@ -3,6 +3,7 @@ library(tidyverse)
 RESULT_DIR <- "results"
 RESULT_DESCRIPTION_DIR <- file.path(RESULT_DIR, "DESCRIPTION")
 RESULT_NAMESPACE_DIR <- file.path(RESULT_DIR, "NAMESPACE")
+RESULT_USER_DIR <- file.path(RESULT_DIR, "NAMESPACE_by_user")
 
 # Query Construction -------------------------------------------------------------
 
@@ -166,6 +167,7 @@ get_rate_limit_for_search <- function() {
 # Create directories ------------------------------------------------------------------
 
 dir.create(RESULT_NAMESPACE_DIR, showWarnings = FALSE, recursive = TRUE)
+dir.create(RESULT_USER_DIR, showWarnings = FALSE, recursive = TRUE)
 
 rate_limit <- get_rate_limit_for_search()
 max_count <- rate_limit$limit
@@ -222,5 +224,30 @@ for (i in seq_along(query_patterns)) {
     write_csv(result,
               path = file.path(csv_dir, sprintf("page%d.csv", page)))
     Sys.sleep(60)
+  }
+}
+
+# Search users
+users <- setdiff(combine(users_many_repo, users_other), users_exclude)
+NAMESPACE_SINGLE_USER_QUERY_TMPL<- glue::glue(
+  "filename:NAMESPACE fork:false export NOT D1tr user:%s {extensions_query}"
+)
+
+for (user in users[-1]) {
+  message("user: ", user)
+  
+  csv_dir <- file.path(RESULT_USER_DIR, user)
+  dir.create(csv_dir, showWarnings = FALSE)
+  page_namespace <- get_next_page(csv_dir)
+  
+  for (page in 1:10) {
+    message("page: ", page)
+    result <- do_search(page,
+                        query = sprintf(NAMESPACE_SINGLE_USER_QUERY_TMPL, user))
+    
+    write_csv(result,
+              path = file.path(csv_dir, sprintf("page%d.csv", page)))
+    Sys.sleep(30)
+    if (nrow(result) < 100) break
   }
 }

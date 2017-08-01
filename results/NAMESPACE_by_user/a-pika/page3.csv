@@ -1,0 +1,17 @@
+owner,repo,filename,path
+a-pika,MiningResourceProfilesPlugin,NAMESPACE,JRI_DIR/R-3.0.0/library/boot/NAMESPACE
+a-pika,MiningResourceProfilesPlugin,NAMESPACE,JRI_DIR/R-3.0.0/library/cluster/NAMESPACE
+a-pika,MiningResourceProfilesPlugin,NAMESPACE,JRI_DIR/R-3.0.0/library/TTR/NAMESPACE
+a-pika,MiningResourceProfilesPlugin,NAMESPACE,JRI_DIR/R-3.0.0/library/Rcpp/unitTests/testRcppModule/NAMESPACE
+a-pika,MiningResourceProfilesPlugin,NAMESPACE,JRI_DIR/R-3.0.0/library/file157c5c2330a9/Rcpp/unitTests/testRcppModule/NAMESPACE
+a-pika,MiningResourceProfilesPlugin,NAMESPACE,JRI_DIR/R-3.0.0/library/file188c508d503f/Rcpp/unitTests/testRcppModule/NAMESPACE
+a-pika,MiningResourceProfilesPlugin,NAMESPACE,JRI_DIR/R-3.0.0/library/Rcpp/unitTests/testRcppClass/NAMESPACE
+a-pika,MiningResourceProfilesPlugin,NAMESPACE,JRI_DIR/R-3.0.0/library/file157c5c2330a9/Rcpp/unitTests/testRcppClass/NAMESPACE
+a-pika,MiningResourceProfilesPlugin,NAMESPACE,JRI_DIR/R-3.0.0/library/file188c508d503f/Rcpp/unitTests/testRcppClass/NAMESPACE
+a-pika,MiningResourceProfilesPlugin,NAMESPACE,JRI_DIR/R-3.0.0/library/RcppArmadillo/NAMESPACE
+a-pika,MiningResourceProfilesPlugin,NAMESPACE,JRI_DIR/R-3.0.0/library/RColorBrewer/NAMESPACE
+a-pika,MiningResourceProfilesPlugin,NAMESPACE,JRI_DIR/R-3.0.0/library/Rcpp/NAMESPACE
+a-pika,MiningResourceProfilesPlugin,NAMESPACE,JRI_DIR/R-3.0.0/library/Matrix/NAMESPACE
+a-pika,MiningResourceProfilesPlugin,NAMESPACE,JRI_DIR/R-3.0.0/library/KernSmooth/NAMESPACE
+a-pika,MiningResourceProfilesPlugin,NAMESPACE,JRI_DIR/R-3.0.0/library/MASS/NAMESPACE
+a-pika,MiningResourceProfilesPlugin,NAMESPACE,JRI_DIR/R-3.0.0/library/Benchmarking/NAMESPACE

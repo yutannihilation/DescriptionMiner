@@ -1,0 +1,15 @@
+owner,repo,filename,path
+PeterUlz,PlasmaSeq,NAMESPACE,R/x86_64-pc-linux-gnu-library/2.14/AnnotationDbi/AnnDbPkg-templates/CHICKENCHIP.DB/NAMESPACE
+PeterUlz,PlasmaSeq,NAMESPACE,R/x86_64-pc-linux-gnu-library/2.14/AnnotationDbi/AnnDbPkg-templates/CHIMP.DB/NAMESPACE
+PeterUlz,PlasmaSeq,NAMESPACE,R/x86_64-pc-linux-gnu-library/2.14/AnnotationDbi/AnnDbPkg-templates/COELICOLOR.DB/NAMESPACE
+PeterUlz,PlasmaSeq,NAMESPACE,R/x86_64-pc-linux-gnu-library/2.14/AnnotationDbi/AnnDbPkg-templates/ECOLI.DB/NAMESPACE
+PeterUlz,PlasmaSeq,NAMESPACE,R/x86_64-pc-linux-gnu-library/2.14/AnnotationDbi/AnnDbPkg-templates/ECOLICHIP.DB/NAMESPACE
+PeterUlz,PlasmaSeq,NAMESPACE,R/x86_64-pc-linux-gnu-library/2.14/AnnotationDbi/AnnDbPkg-templates/FLY.DB/NAMESPACE
+PeterUlz,PlasmaSeq,NAMESPACE,R/x86_64-pc-linux-gnu-library/2.14/AnnotationDbi/AnnDbPkg-templates/RHESUS.DB/NAMESPACE
+PeterUlz,PlasmaSeq,NAMESPACE,R/x86_64-pc-linux-gnu-library/2.14/AnnotationDbi/AnnDbPkg-templates/WORMCHIP.DB/NAMESPACE
+PeterUlz,PlasmaSeq,NAMESPACE,R/x86_64-pc-linux-gnu-library/2.14/AnnotationDbi/AnnDbPkg-templates/XENOPUS.DB/NAMESPACE
+PeterUlz,PlasmaSeq,NAMESPACE,R/x86_64-pc-linux-gnu-library/2.14/AnnotationDbi/AnnDbPkg-templates/XENOPUSCHIP.DB/NAMESPACE
+PeterUlz,PlasmaSeq,NAMESPACE,R/x86_64-pc-linux-gnu-library/2.14/AnnotationDbi/AnnDbPkg-templates/YEAST.DB/NAMESPACE
+PeterUlz,PlasmaSeq,NAMESPACE,R/x86_64-pc-linux-gnu-library/2.14/AnnotationDbi/AnnDbPkg-templates/YEASTCHIP.DB/NAMESPACE
+PeterUlz,PlasmaSeq,NAMESPACE,R/x86_64-pc-linux-gnu-library/2.14/AnnotationDbi/AnnDbPkg-templates/YEASTNCBI.DB/NAMESPACE
+PeterUlz,PlasmaSeq,NAMESPACE,R/x86_64-pc-linux-gnu-library/2.14/AnnotationDbi/AnnDbPkg-templates/ZEBRAFISHCHIP.DB/NAMESPACE

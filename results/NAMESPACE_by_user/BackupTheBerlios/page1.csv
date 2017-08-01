@@ -1,0 +1,13 @@
+owner,repo,filename,path
+BackupTheBerlios,mkin-svn,NAMESPACE,R_packages/kinfit/trunk/NAMESPACE
+BackupTheBerlios,pyasynchio-svn,Makefile.NamespaceSupport_Test,vendor/ace/current/ACEXML/tests/Makefile.NamespaceSupport_Test
+BackupTheBerlios,pyasynchio-svn,Makefile.NamespaceSupport_Test,vendor/ace/5.4.1/ACEXML/tests/Makefile.NamespaceSupport_Test
+BackupTheBerlios,pyasynchio-svn,Makefile.NamespaceSupport_Test,release/0.0.2/vendor/ace/ACEXML/tests/Makefile.NamespaceSupport_Test
+BackupTheBerlios,arp2-svn,namespace.c.orig,core/vendor/kernel/fedora/linux-2.6.16-1.2080_FC5/fs/namespace.c.orig
+BackupTheBerlios,cost-project,NAMESPACE,COSTreport/NAMESPACE
+BackupTheBerlios,cost-project,NAMESPACE,COSTsim/NAMESPACE
+BackupTheBerlios,cost-project,NAMESPACE,COSTmbe/NAMESPACE
+BackupTheBerlios,cost-project,NAMESPACE,COSTeda/NAMESPACE
+BackupTheBerlios,cost-project,NAMESPACE,COSTdata/NAMESPACE
+BackupTheBerlios,cost-project,NAMESPACE,COSTdbe/NAMESPACE
+BackupTheBerlios,cost-project,NAMESPACE,COSTcore/NAMESPACE
